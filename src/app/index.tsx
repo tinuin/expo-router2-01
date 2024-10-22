@@ -1,6 +1,6 @@
 import { StyleSheet, FlatList, ActivityIndicator } from 'react-native';
 import apodsJson from '../src/data/apods.json';
-import ApodListItem from '../src/components/ApodListItem';
+import ApodListItem from '@comp/ApodListItem';
 import { useEffect, useState } from 'react';
 import FullScreenImage from '../src/components/FullScreenImage';
 import { Apod } from '../src/types';
